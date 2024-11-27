@@ -11,10 +11,11 @@ Installation instructions:
     In folder.py, specify the sours_target folder, which will receive the data to update the contents of the target_folder.
     In main.py, there's a function that checks if the specified program (Obsidian by default) is running. If needed, replace the program name with the one you want to use.
     Use the batch file start_obsidian_with_script.bat, which runs both the program and the synchronization script.
+    If you need to use a script for another program, create a new bat file in which the program you need and the script itself will be launched
 
 Example usage:
 
-    The repository includes a .bat file that launches the program Obsidian and the sync script. If you need to use a script for another program, create a new bat file in which the program you need and the script itself will be launched
+    The repository includes a .bat file that launches the program Obsidian and the sync script. 
     Choose the .bat file as the launch object in your program's shortcut, so both the program and synchronization start at the same time.
 
 Technologies and libraries:
@@ -42,11 +43,12 @@ DiskSync — это скрипт на Python, который синхрониз�
     Основной файл для синхронизации — sync.py.
     В файле folder.py укажите папку sours_target, которая будет получать данные, чтобы изменить содержимое папки target_folder.
     В файле main.py есть функция для проверки, запущена ли указанная программа (по умолчанию Obsidian). Если необходимо, замените имя программы на нужное вам.
-    Используйте файл разметки start_obsidian_with_script.bat, который запускает как программу, так и скрипт синхронизации.
+    Используйте файл разметки start_obsidian_with_script.bat, который запускает как программу, так и скрипт синхронизации. 
+    Если вам нужно использовать скрипт для другой программы создайте новый bat файл в котором будет запускаться программа которая вам нужна и сам скрипт.
 
 Пример использования:
 
-    В репозитории имеется .bat файл, который запускает программу Obsidian и скрипт синхронизации. Если вам нужно использовать скрипт для другой программы создайте новый bat файл в котором будет запускаться программа которая вам нужна и сам скрипт.
+    В репозитории имеется .bat файл, который запускает программу Obsidian и скрипт синхронизации.
     Выберите .bat файл в ярлыке вашей программы, чтобы при запуске одновременно стартовали как программа, так и синхронизация.
 
 Технологии и библиотеки:
