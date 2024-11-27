@@ -1,2 +1,2 @@
-source_folder = r'C:\Users\Drop3e\Desktop\obsidian'
-target_folder = r'E:\obsidian'
+source_folder = r'' # your source folder
+target_folder = r'' # your target folder 
