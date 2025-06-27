@@ -1,4 +1,4 @@
-import synchronizer as synch
+import sync
 import time
 import psutil
 import folder as fol
@@ -13,7 +13,7 @@ while True:
     time.sleep(20)
     if find_procs_by_name() == False:
         try:
-            synch.sync_folder(fol.source_folder, fol.target_folder)
+            sync.sync_folder(fol.source_folder, fol.target_folder)
         finally:    
             break
     else:
